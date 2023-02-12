@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My first three.js app</title>
+	<link type="text/css" rel="stylesheet" href="main.css">
+	<style>
+		body {
+			margin: 0;
+			background-color: #ccc;
+			color: #000;
+		}
+
+		a {
+			color: #f00;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="info">
+		Left-Drag to rotate
+		Scroll: zoom
+		Right-Drag: move
+		<br>
+		<input type="text" id="customization_input" style="position: absolute; z-index:10"/>
+	</div>
+	<script src="./three.js"></script>
+	<!-- <script type="module" src=""></script> -->
+	<script src="my_scenes/composite.js" type="module"></script>
+</body>
+
+</html>
